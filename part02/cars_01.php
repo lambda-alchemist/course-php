@@ -14,10 +14,10 @@ foreach($cars as $key => $value){
 	case(5):  $extra = "Ferrari"; break;
 	case(6):  $extra = "Made before the moonlanding."; break;
 	case(7):  $extra = "Rich people status symbol."; break;
-	case(8):  $extra = "INvolved in th holocaust."; break;
+	case(8):  $extra = "Involved in th holocaust."; break;
 	case(9):  $extra = "Should be cheaper."; break;
 	}
-	echo "cars[$key] = $value => $extra\n";
+	echo "cars[$key] = $value > $extra\n";
 };
 
 
