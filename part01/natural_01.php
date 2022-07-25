@@ -1,10 +1,10 @@
 <?php
 
-$number = 789;
+$num = 789;
 
-if ( $number >= 0 )
-	{ echo "The number, $number, is positive\n"; }
+if ( $num >= 0 )
+	{ echo "The number, $num, is positive\n"; }
 else
-	{ echo "The number, $number, is negative\n"; }
+	{ echo "The number, $num, is negative\n"; }
 
 ?>
