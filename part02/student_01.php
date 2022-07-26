@@ -12,10 +12,10 @@ class student {
 		echo "Average: " . $this->avrg() . "\n";
 
 		foreach($this->grade as $key => $val){
-			if ($val>=7)
-				{$out = "Excellent";}
-			else
-				{$out = "Bad";}
+			if ($val>=7) {
+				$out = "Excellent";}
+			else {
+				$out = "Bad";}
 			$key++; // off by one :P
 			echo "On bimester $key, the student was $out\n";
 		}
