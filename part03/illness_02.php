@@ -41,7 +41,7 @@ $terminal = array(
 
 foreach ( $pat as $key => $val ) {
 
-	echo "Patient: $val > $con[$key]";
+	echo "Patient $key : $val > $con[$key]";
 
 	if( $terminal[$key] ){
 		echo " :: Terminal.\n";

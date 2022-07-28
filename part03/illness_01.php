@@ -27,7 +27,7 @@ $con = array(
 );
 
 foreach ( $pat as $key => $val ) {
-	echo "Patient: $val > $con[$key]\n";
+	echo "Patient $key : $val > $con[$key]\n";
 };
 
 ?>
