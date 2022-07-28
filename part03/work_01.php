@@ -1,7 +1,6 @@
 <?php
 
 $totalHours = 40;
-$extraHours = 10;
 $hourlyRate = 15.00;
 $salary = 0;
 
@@ -13,7 +12,7 @@ else
 if($totalHours >= 40) {
 $salary =
 	($hourlyRate * 40) +
-	($extraHours * ($hourlyRate * 1.5));
+	(($totalHours - 40) * ($hourlyRate * 1.5));
 }
 
 echo "The final salary is USD\$$salary\n";
