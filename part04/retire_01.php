@@ -18,8 +18,7 @@ $neto->setExp(10);
 $retireStatus = 0;
 $worker = array(
 	$neto->getAge(),
-	$neto->getExp()
-);
+	$neto->getExp());
 
 if ($worker[0] >= 65)
 	{ $retireStatus = 1; }
