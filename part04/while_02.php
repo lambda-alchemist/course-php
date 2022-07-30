@@ -1,6 +1,5 @@
 <?php
 
-// q01
 // Project Gutenberg License
 // source: https://www.gutenberg.org/files/8789/8789-h/8789-h.htm
 $text = array(
@@ -33,8 +32,13 @@ $text = array(
 "That none hath pass'd and liv'd.  My weary frame",
 "After short pause recomforted, again",
 "I journey'd on over that lonely steep,", );
+
+// q02
+echo "\n\n";
 $i = 0;
-while ( $i <= 10){
+$user = 16; //faux user input
+while($i <= $user){
 	echo $text[$i]."\n";
 	$i++;
 }
+
